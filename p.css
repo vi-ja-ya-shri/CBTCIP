@@ -16,6 +16,7 @@ header {
   height: 250vh;
   width: 100vw;
   border: 2px solid khaki;
+  background-image: url(img/download\ \(1\).jpg);
 }
 
 .text {
@@ -24,7 +25,7 @@ header {
   border: 2px solid khaki;
   scroll-margin-top: 9rem;
   align-items: center;
-  background-image: url(download\ \(1\).jpg);
+  background-image: url(img/download\ \(1\).jpg);
 }
 
 pre {
