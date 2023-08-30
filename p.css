@@ -7,8 +7,11 @@
   font-family: "Dancing Script", cursive;
 }
 header {
-  background-color: khaki;
+  background-color:rgb(245, 238, 176);
   height: 8rem;
+}
+html{
+  scroll-behavior: smooth;
 }
 #menu {
   display: flex;
@@ -20,7 +23,7 @@ header {
 }
 
 .text {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
   border: 2px solid khaki;
   scroll-margin-top: 9rem;
@@ -70,7 +73,7 @@ footer {
   bottom: 0%;
 }
 footer {
-  background-color: khaki;
+  background-color:rgb(245, 238, 176);
   font-size: 1.5rem;
 }
 h2 {
@@ -104,6 +107,7 @@ figure {
   justify-content: space-between;
   border: 22px solid khaki;
   background-color: rgb(241, 234, 174);
+   margin-left: 40px;
 }
 img {
   display: flex;
