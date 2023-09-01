@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: cursive;
+}
+section {
+  scroll-margin: 3rem;
+}
+header {
+  background-color: rgb(176, 175, 175);
+  text-align: right;
+  height: 3rem;
+  position: sticky;
+}
+header {
+  top: 0%;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-inline: 1rem;
+  font-size: 2rem;
+
+  font-weight: bolder;
+}
+li a {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+}
+li a:hover {
+  background-color: black;
+  color: rgb(199, 199, 199);
+}
+
+#about {
+  height: 100vh;
+  border: 2px solid black;
+  background-image: url(img/bgimg1.jpg);
+  background-size: cover;
+  width: 100vw;
+}
+
+#portfolio {
+  height: 130vh;
+  border: 2px solid black;
+  width: 100vw;
+  
+ font-family: cursive;
+font-size: 1rem;
+}
+#portfolio{
+  background-image: url(img/bgimg2.jpg);
+  background-size: cover;
+}
+#contact {
+  height: 100vh;
+  border: 2px solid black;
+  width: 100vw;
+}
+
+img {
+  border: 2px solid double whitesmoke;
+  border-radius: 60%;
+}
+
+figcaption {
+  font-size: larger;
+  font-weight: bolder;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+h2 {
+  color: blanchedalmond;
+  font-weight: bolder;
+  margin-top: 1.3rem;
+  text-decoration: underline;
+}
+#text {
+  width: 100vw;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+#contact {
+  background-image: url(img/bgimg3.jpg);
+  background-size: cover;
+}
+article {
+  display: inline-flex;
+  border: 2px solid whitesmoke;
+  font-size: 1rem;
+  margin-left: 48rem;
+  margin-top: 0.5rem;
+  width: 25rem;
+  height: 20 rem;
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+#icon {
+  margin-top: -2.5rem;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+h4 {
+  font-size: 1.5rem;
+  font-family: serif;
+  text-decoration: underline;
+}
